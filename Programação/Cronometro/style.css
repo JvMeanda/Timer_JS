@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    color: #fff;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #d17500, #333333);
+  }
+  
+  .cronometro {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .titulo {
+    color: #333333;
+    position: relative;
+    bottom: 2em;
+    font-size: 1.3em;
+    text-align: center;
+  }
+  
+  .tempo {
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+    bottom: 20%;
+  }
+  
+  .botao {
+    position: relative;
+    text-align: center;
+    margin: 1.6em;
+  }
+  
+  button {
+    padding: 5px;
+    color: #333333;
+    border-radius: 10px;
+    border: solid 1px #333333;
+    margin-left: 9px;
+  }
+  
+  button:hover{
+      background-color: #d17500;
+      color: #333333;
+      border: solid 1px #333333;
+      cursor: pointer;
+  }
