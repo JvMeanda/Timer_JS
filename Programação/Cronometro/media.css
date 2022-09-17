@@ -1,0 +1,200 @@
+@media (max-width: 500px) {
+  .cronometro {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+  .countDown {
+    width: 410px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .btn_action {
+    width: 126px;
+    text-align: center;
+    position: relative;
+    left: -1%;
+  }
+
+  .arrow_description {
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 450px) {
+  .countDown {
+    width: 395px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .btn_action {
+    width: 120px;
+    text-align: center;
+    position: relative;
+    left: -1%;
+  }
+
+  .cronometro_btn {
+    width: 130px;
+    text-align: center;
+    position: relative;
+    left: -1%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 419px) {
+  button {
+    padding: 0.9rem 1.6rem;
+  }
+
+  .cronometro_btn {
+    width: 120px;
+    text-align: center;
+    position: relative;
+    left: -1%;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 398px) {
+  .countDown {
+    width: 370px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .btn_action {
+    width: 115px;
+    text-align: center;
+    position: relative;
+    left: -1%;
+  }
+
+  .arrow_description {
+    margin-left: 15px;
+    font-size: 1.6rem;
+  }
+
+  .cronometro_btn {
+    width: 114px;
+    text-align: center;
+    position: relative;
+    left: -1%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 384px) {
+  .cronometro_btn {
+    width: 112px;
+    text-align: center;
+    position: relative;
+    left: -1%;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 378px) {
+  .titulo {
+    font-size: 1.4rem;
+  }
+
+  .countDown {
+    width: 340px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.8rem;
+    margin-top: 3.3rem;
+  }
+
+  .btn_action {
+    width: 105px;
+    text-align: center;
+    position: relative;
+    left: -1%;
+    font-size: 1rem;
+  }
+
+  .arrow_description {
+    position: absolute;
+    margin-top: 1.7rem;
+    left: 45%;
+    font-size: 1.6rem;
+  }
+
+  .cronometro_btn {
+    width: 105px;
+    text-align: center;
+    position: relative;
+    left: -1%;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  button {
+    padding: 0.5rem 1rem;
+  }
+
+  .cronometro_btn {
+    width: 95px;
+    position: relative;
+    left: -1%;
+    font-size: 1rem;
+    padding: 0.7rem 1.4rem;
+  }
+
+  .titulo {
+    text-align: center;
+    font-size: 1.38rem;
+  }
+
+  .arrow {
+    font-size: 1.96rem;
+    margin: 0;
+  }
+
+  .arrow2 {
+    margin-top: 4px;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .countDown {
+    width: 308px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.8rem;
+    margin-top: 3.3rem;
+  }
+
+  .btn_action {
+    width: 95px;
+    text-align: center;
+    position: relative;
+    left: -1%;
+    font-size: 1.1rem;
+  }
+
+  .arrow_description {
+    position: absolute;
+    margin-top: 1.7rem;
+    left: 45%;
+    font-size: 1.6rem;
+  }
+}

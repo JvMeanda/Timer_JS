@@ -6,22 +6,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="../img/timer_14156.png" type="image/x-icon">
-    <title>Cronometro</title>
+    <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" href="../img/alarm-clock.png" type="image/x-icon">
+    <title>Cronômetro & Timer</title>
 </head>
 
 <body>
-    <div class="cronometro">
-        <div class="titulo">
-            <h1>Cronômetro</h1>
+    <!-- CRONÔMETRO -->
+    <div class="container">
+        <div class="cronometro">
+            <div class="titulo">
+                <ion-icon class="arrow" name="chevron-back-outline" id="arrow_left_cronometro"></ion-icon>
+                <h1>Cronômetro</h1>
+                <ion-icon class="arrow arrow2" name="chevron-forward-outline" id="arrow_right_cronometro"></ion-icon>
+            </div>
+            <div class="tempo">
+                <span>00:00:00:00</span>
+            </div>
+            <div class="btn">
+                <button class="cronometro_btn" id="stop">
+                    <h3>Stop</h3>
+                </button>
+                <button class="cronometro_btn" id="start">
+                    <h3>Start</h3>
+                </button>
+                <button class="cronometro_btn" id="reset">
+                    <h3>Reset</h3>
+                </button>
+            </div>
         </div>
-        <div class="tempo"><p>00:00:00:00</p></div>
-        <div class="botao">
-            <button onclick="stop()" id="stop"><h3>Stop</h3></button>
-            <button onclick="start()" id="start"><h3>Start</h3></button>
-            <button onclick="reset()" id="reset"><h3>Reset</h3></button>
+
+        <!-- TIMER -->
+
+        <div class="timer">
+            <div class="titulo">
+                <ion-icon class="arrow" name="chevron-back-outline" id="arrow_left_timer"></ion-icon>
+                <h1>Timer</h1>
+                <ion-icon class="arrow arrow2" name="chevron-forward-outline" id="arrow_right_timer"></ion-icon>
+            </div>
+            <div class="description_container">
+                <span class="description">Digite o Tempo desejado aqui</span>
+                <ion-icon class="arrow_description" name="arrow-down-outline"></ion-icon>
+            </div>
+            <div class="countDown">
+                <input class="timer_numbers" id="horas" type="number" min="0" max="24" name="horas" value="00">
+
+                <span class="value_count" id="H_letter">H</span>
+
+                <input class="timer_numbers" id="minutos" type="number" min="0" max="60" name="minutos" value="05">
+
+                <span class="value_count" id="M_letter">M</span>
+
+                <input class="timer_numbers" id="segundos" type="number" min="0" max="60" name="segundos" value="00">
+
+                <span class="value_count">S</span>
+            </div>
+            <div class="btn">
+                <button class="btn_action" id="stop_timer">
+                    <h3>Stop</h3>
+                </button>
+                <button class="btn_action" id="start_timer">
+                    <h3>Start</h3>
+                </button>
+                <button class="btn_action" id="reset_timer">
+                    <h3>Reset</h3>
+                </button>
+            </div>
         </div>
+
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="./document.js" defer></script>
 </body>
 
